@@ -1,0 +1,40 @@
+﻿Build started 4/29/2015 1:20:39 AM.
+     1>Project "C:\Users\Abhineet\OneDrive\ProjectWork\C++\TheEye\TheEye\TheEye.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\WorkFolder\Libraries\opencv\build\/include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\TheEye.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt TheEye.cpp
+         TheEye.cpp
+     1>c:\users\abhineet\onedrive\projectwork\c++\theeye\theeye\util.h(109): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\abhineet\onedrive\projectwork\c++\theeye\theeye\util.h(110): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\abhineet\onedrive\projectwork\c++\theeye\theeye\util.h(111): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\abhineet\onedrive\projectwork\c++\theeye\theeye\util.h(112): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\abhineet\onedrive\projectwork\c++\theeye\theeye\util.h(113): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\abhineet\onedrive\projectwork\c++\theeye\theeye\util.h(116): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\abhineet\onedrive\projectwork\c++\theeye\theeye\learningutil.h(387): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\abhineet\onedrive\projectwork\c++\theeye\theeye\learningutil.h(390): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\abhineet\onedrive\projectwork\c++\theeye\theeye\learningutil.h(406): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\abhineet\onedrive\projectwork\c++\theeye\theeye\learningutil.h(409): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\abhineet\onedrive\projectwork\c++\theeye\theeye\learningutil.h(421): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\abhineet\onedrive\projectwork\c++\theeye\theeye\learningutil.h(424): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\abhineet\onedrive\projectwork\c++\theeye\theeye\testutil.h(9): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\abhineet\onedrive\projectwork\c++\theeye\theeye\testutil.h(12): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\abhineet\onedrive\projectwork\c++\theeye\theeye\theeye.cpp(148): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\abhineet\onedrive\projectwork\c++\theeye\theeye\theeye.cpp(187): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\abhineet\onedrive\projectwork\c++\theeye\theeye\theeye.cpp(212): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\abhineet\onedrive\projectwork\c++\theeye\theeye\theeye.cpp(260): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\abhineet\onedrive\projectwork\c++\theeye\theeye\theeye.cpp(264): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\abhineet\onedrive\projectwork\c++\theeye\theeye\theeye.cpp(273): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\abhineet\onedrive\projectwork\c++\theeye\theeye\theeye.cpp(299): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\abhineet\onedrive\projectwork\c++\theeye\theeye\theeye.cpp(346): warning C4065: switch statement contains 'default' but no 'case' labels
+     1>c:\users\abhineet\onedrive\projectwork\c++\theeye\theeye\theeye.cpp(368): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\abhineet\onedrive\projectwork\c++\theeye\theeye\theeye.cpp(387): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\abhineet\onedrive\projectwork\c++\theeye\theeye\theeye.cpp(458): warning C4065: switch statement contains 'default' but no 'case' labels
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Abhineet\OneDrive\ProjectWork\C++\TheEye\Debug\TheEye.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\WorkFolder\Libraries\opencv\build\/x86/vc12/lib opencv_core2410d.lib opencv_imgproc2410d.lib opencv_ml2410d.lib opencv_video2410d.lib opencv_highgui2410d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Abhineet\OneDrive\ProjectWork\C++\TheEye\Debug\TheEye.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Abhineet\OneDrive\ProjectWork\C++\TheEye\Debug\TheEye.lib" /MACHINE:X86 Debug\stdafx.obj
+         Debug\TheEye.obj
+         Debug\TrackedObject.obj
+         TheEye.vcxproj -> C:\Users\Abhineet\OneDrive\ProjectWork\C++\TheEye\Debug\TheEye.exe
+     1>Done Building Project "C:\Users\Abhineet\OneDrive\ProjectWork\C++\TheEye\TheEye\TheEye.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.38
